@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica;
+    color: black;
+    padding: 10%;
+}
+
+@media( min-width: 992px) {
+    .box {
+        float: left;
+        width: 30%;
+        margin-left: 2.5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        border: solid black 3px;
+        background-color: grey;
+    }
+    .boxalt {
+        float: left;
+        width: 30%;
+        margin-left: 2.5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        background-color: grey;
+        border: solid black 3px;
+    }
+    .box2 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: rgb(240, 140, 140);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .box3 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: brown;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .box4 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: rgb(214, 184, 184);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .box {
+        float: left;
+        width: 45.5%;
+        margin-left: 3%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        border: solid black 3px;
+        background-color: grey;
+    }
+    .boxalt {
+        float: left;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        background-color: grey;
+        border: solid black 3px;
+    }
+    .box2 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: rgb(240, 140, 140);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .box3 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: brown;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .box4 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: rgb(214, 184, 184);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 767px) {
+    .box {
+        float: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        background-color: grey;
+        border: solid black 3px;
+    }
+    .boxalt {
+        float: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        background-color: grey;
+        border: solid black 3px;
+    }
+    .box2 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: rgb(240, 140, 140);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .box3 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: brown;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .box4 {
+        float: right;
+        border-bottom: solid black 2px;
+        border-left: solid black 2px;
+        background-color: rgb(214, 184, 184);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
